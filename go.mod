@@ -1,4 +1,4 @@
-module git.sportsdots.ru/go-util/context
+module 89-111-140-126.swtest.ru/go-util/context
 
 go 1.23.3
 
