@@ -1,4 +1,4 @@
-module git.sportsdots.ru/sportsdots-backend/go-util/context
+module git.sportsdots.ru/sportsdots-backend/go-util/context.git
 
 go 1.23.3
 
