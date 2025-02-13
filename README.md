@@ -1,12 +1,12 @@
 # context
 
 installation
-```
-go get -u git.sportsdots.ru/go-util/context
+```go
+go get -u git.sportsdots.ru/go-util/sportctx.git
 ```
 
 example
-```
+```go
 package api
 
 import (
@@ -14,9 +14,9 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	sportctx "git.sportsdots.ru/go-util/context"
+	"git.sportsdots.ru/go-util/sportctx.git"
 	"git.sportsdots.ru/api-service/internal/form"
-	"git.sportsdots.ru/api-service/internal/sportror"
+	"git.sportsdots.ru/api-service/internal/sporterror"
 )
 
 func (hr *Handler) error(c *gin.Context, err error) {
