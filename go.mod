@@ -1,4 +1,4 @@
-module git.sportsdots.ru/sportsdots-backend/go-util/sportctx
+module git.sportsdots.ru/sportsdots-backend/go-util/sportctx.git
 
 go 1.24.0
 
